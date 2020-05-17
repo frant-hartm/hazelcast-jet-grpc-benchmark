@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hazelcast.jet.benchmark</groupId>
+    <artifactId>jet-grpc-benchmark</artifactId>
+
+    <version>1.0-SNAPSHOT</version>
+    <name>jet-grpc-benchmark</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+
+        <protobuf.version>3.11.3</protobuf.version>
+        <grpc.version>1.26.0</grpc.version>
+    </properties>
+
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+
+    </build>
+
+    <modules>
+        <module>jet-grpc-benchmark-proto</module>
+        <module>jet-grpc-benchmark-service</module>
+        <module>jet-grpc-benchmark-job</module>
+    </modules>
+
+</project>
